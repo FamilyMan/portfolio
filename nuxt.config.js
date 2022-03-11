@@ -8,8 +8,8 @@ export default {
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - demo',
-    title: 'demo',
+    titleTemplate: 'Julian Coles - Portfolio',
+    title: 'Portfolio',
     htmlAttrs: {
       lang: 'en'
     },
