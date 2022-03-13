@@ -39,12 +39,12 @@ Create a repository in GitHub and push your nuxt app to it.
 
 In nuxt.config.js add the following to the export default object:
 
-<pre>
+```js
   target: 'static',
   router: {
     base: '/github-repo-name>'
   }
-</pre>
+```
 
 Install the gh-pages package by using:
 
@@ -52,10 +52,10 @@ npm i gh-pages
 
 Add the following to package.json scripts object:
 
-<pre>
+```js
   "predeploy": "nuxt generate",
   "deploy": "gh-pages -d dist"
-</pre>
+```js
 
 Add an empty file named .nojekyll to the project's root directory.
 
