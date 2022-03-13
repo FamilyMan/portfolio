@@ -42,7 +42,7 @@ In nuxt.config.js add the following to the export default object:
 <pre>
   target: 'static',
   router: {
-    base: '/<github-repo-name>/'
+    base: '/github-repo-name>'
   }
 </pre>
 
@@ -60,7 +60,7 @@ Add an empty file named .nojekyll to the project's root directory.
 All references to sources must have relative paths, not absolute, e.g.
 
 <pre>
-  <img src="/pic.jpg"> should be changed to <img src="pic.jpg">
+  img src="/pic.jpg" should be changed to img src="pic.jpg"
 </pre>
 Run the following to deploy your app to GitHub pages:
 
