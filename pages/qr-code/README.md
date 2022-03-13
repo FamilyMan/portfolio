@@ -42,7 +42,7 @@ In nuxt.config.js add the following to the export default object:
 ```js
   target: 'static',
   router: {
-    base: '/<github-repo-name>'
+    base: '/<github-repo-name>/'
   }
 ```
 
