@@ -61,12 +61,9 @@ Add an empty file named .nojekyll to the project's root directory.
 
 All references to sources must have relative paths, not absolute, e.g.
 
-<pre>
-  img src="/pic.jpg" should be changed to img src="pic.jpg"
-  ```
-    <img src="/pic.jpg"> should be changed to <img src="pic.jpg">
-  ```
-</pre>
+```js
+  <img src="/pic.jpg"> should be changed to <img src="pic.jpg">
+```
 
 Run the following to deploy your app to GitHub pages:
 
