@@ -55,7 +55,7 @@ Add the following to package.json scripts object:
 ```js
   "predeploy": "nuxt generate",
   "deploy": "gh-pages -d dist"
-```js
+```
 
 Add an empty file named .nojekyll to the project's root directory.
 
