@@ -68,4 +68,4 @@ npm run deploy
 
 After a few minutes the app should be available at:
 
-<github-username>/github.io/<github-repo-name>
+github-username/github.io/github-repo-name
