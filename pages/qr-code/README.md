@@ -1,6 +1,6 @@
 # Frontend Mentor - QR code component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -39,7 +39,7 @@ Create a repository in GitHub and push your nuxt app to it.
 
 In nuxt.config.js add the following to the export default object:
 
-```js
+```
   target: 'static',
   router: {
     base: '/<github-repo-name>/'
@@ -52,9 +52,9 @@ Install the gh-pages package by using:
 
 Add the following to package.json scripts object:
 
-```js
+```
   "predeploy": "nuxt generate",
-  "deploy": "gh-pages -d dist"
+  "deploy": "gh-pages -d dist -t true"
 ```
 
 Add an empty file named .nojekyll to the project's root directory.
