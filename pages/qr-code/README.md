@@ -39,10 +39,12 @@ Create a repository in GitHub and push your nuxt app to it.
 
 In nuxt.config.js add the following to the export default object:
 
-target: 'static',
-router: {
-  base: '/<github-repo-name>/'
-}
+<pre>
+  target: 'static',
+  router: {
+    base: '/<github-repo-name>/'
+  }
+</pre>
 
 Install the gh-pages package by using:
 
@@ -57,8 +59,9 @@ Add an empty file named .nojekyll to the project's root directory.
 
 All references to sources must have relative paths, not absolute, e.g.
 
-<img src="/pic.jpg"> should be changed to <img src="pic.jpg">
-
+<pre>
+  <img src="/pic.jpg"> should be changed to <img src="pic.jpg">
+</pre>
 Run the following to deploy your app to GitHub pages:
 
 npm run deploy
