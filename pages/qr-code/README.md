@@ -52,8 +52,10 @@ npm i gh-pages
 
 Add the following to package.json scripts object:
 
-"predeploy": "nuxt generate",
-"deploy": "gh-pages -d dist"
+<pre>
+  "predeploy": "nuxt generate",
+  "deploy": "gh-pages -d dist"
+</pre>
 
 Add an empty file named .nojekyll to the project's root directory.
 
@@ -64,7 +66,7 @@ All references to sources must have relative paths, not absolute, e.g.
 </pre>
 Run the following to deploy your app to GitHub pages:
 
-npm run deploy
+<pre>npm run deploy</pre>
 
 After a few minutes the app should be available at:
 
