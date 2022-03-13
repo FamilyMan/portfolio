@@ -63,9 +63,9 @@ All references to sources must have relative paths, not absolute, e.g.
 
 <pre>
   img src="/pic.jpg" should be changed to img src="pic.jpg"
-  <code>
+  ```
     <img src="/pic.jpg"> should be changed to <img src="pic.jpg">
-  </code>
+  ```
 </pre>
 
 Run the following to deploy your app to GitHub pages:
