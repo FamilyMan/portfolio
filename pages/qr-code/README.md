@@ -48,7 +48,7 @@ In nuxt.config.js add the following to the export default object:
 
 Install the gh-pages package by using:
 
-npm i gh-pages
+<pre>npm i gh-pages</pre>
 
 Add the following to package.json scripts object:
 
@@ -71,4 +71,6 @@ Run the following to deploy your app to GitHub pages:
 
 After a few minutes the app should be available at:
 
-github-username/github.io/github-repo-name
+```
+<github-username>/github.io/<github-repo-name>
+```
