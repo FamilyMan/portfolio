@@ -46,6 +46,7 @@ export default {
     display: 'swap',
     families: {
       Outfit: true,
+      Manrope: true
     }
   },
 

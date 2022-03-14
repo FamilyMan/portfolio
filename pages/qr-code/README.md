@@ -18,7 +18,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [https://github.com/FamilyMan/portfolio](https://github.com/FamilyMan/portfolio)
+- Solution URL: [https://github.com/FamilyMan/portfolio/tree/main/pages/qr-code](https://github.com/FamilyMan/portfolio/tree/main/pages/qr-code)
 - Live Site URL: [https://familyman.github.io/portfolio/qr-code](https://familyman.github.io/portfolio/qr-code)
 
 ## My process
