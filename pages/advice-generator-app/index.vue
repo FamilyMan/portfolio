@@ -1,8 +1,8 @@
 <template>
-  <div style="min-height: 100vh;background-color: var(--dark-blue);display: flex;justify-content: center;align-items: center;padding: 16px">
+  <div style="min-height: 100vh;background-color: var(--dark-blue);display: flex;justify-content: center;align-items: center">
     <v-card v-if="slip" elevation="12" style="font-family: Manrope, sans-serif;min-height: 340px;width: 540px;background-color: var(--dark-grayish-blue);border-radius: 15px;text-align: center;padding: 48px 48px 0 48px">
-      <h1 style="font-size: 22px;margin-bottom: 24px;color: var(--neon-green)">Advice #{{ slip.id }}</h1>
-      <q style="font-size: 28px;color: var(--light-cyan)">{{ slip.advice }}</q>
+      <h1 style="font-size: 16px;margin-bottom: 20px;color: var(--neon-green)">ADVICE #{{ slip.id }}</h1>
+      <q style="font-size: 28px;font-weight: 800;color: var(--light-cyan)">{{ slip.advice }}</q>
       <v-img style="margin: 40px 0" src="pattern-divider.svg"></v-img>
       <button @click="getAdvice" class="randomize-btn" :class="disabled ? 'disabled' : ''">
         <img src="icon-dice.svg" alt="dice icon">
