@@ -73,6 +73,7 @@ export default {
     letter-spacing: 2.7px;
   }
   img {
+    height: -webkit-fill-available;
     width: 100%;
   }
   .main-background {
@@ -148,7 +149,7 @@ export default {
         ". ."
         "head right"
         "left right";
-      grid-template-rows: 23vh 17vh auto;
+      grid-template-rows: 23vh 17vh 57vh;
       grid-template-columns: minmax(635px, 55%) auto;
     }
     .buttons {

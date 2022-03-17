@@ -1,7 +1,7 @@
 <template>
 <div>
 
-  <v-app-bar flat color="transparent" absolute>
+  <v-app-bar flat color="transparent" app>
     <nuxt-link style="display: flex" to="/space-tourism">
       <img class="image" src="shared/logo.svg" alt="">
     </nuxt-link>
@@ -22,7 +22,7 @@
       v-model="drawer"
       absolute
       temporary
-      :style="drawer ? 'height: 100%' : 'height: 0'"
+      :style="drawer ? '' : 'height: 0'"
       style="background-color: rgba(255, 255, 255, 0.04);backdrop-filter: blur(81.5485px)"
     >
       <v-list

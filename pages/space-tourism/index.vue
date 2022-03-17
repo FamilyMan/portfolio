@@ -47,7 +47,7 @@ export default {
     "."
     "left"
     "right";
-    grid-template-rows: 13vh 35vh auto;
+    grid-template-rows: 13vh minmax(200px, 35vh) auto;
   }
   .explore-button {
     cursor: default;
@@ -87,7 +87,7 @@ export default {
       grid-template-areas:
         "blank blank"
         "left right";
-      grid-template-rows: 41vh auto;
+      grid-template-rows: 43vh auto;
       grid-template-columns: 50% 50%;
     }
     .explore-button {

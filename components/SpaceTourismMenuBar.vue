@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar flat class="menu-bar" color="transparent" absolute>
+  <v-app-bar flat class="menu-bar" color="transparent" app>
     <nuxt-link style="margin: auto 0" to="/space-tourism">
       <img class="logo" src="shared/logo.svg" alt="">
     </nuxt-link>
