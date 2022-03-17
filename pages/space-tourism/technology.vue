@@ -40,19 +40,19 @@ export default {
         {
           title: 'Launch vehicle',
           srcset: '/technology/image-launch-vehicle-landscape.jpg 768w, /technology/image-launch-vehicle-portrait.jpg, 515w',
-          image: '/technology/image-launch-vehicle-landscape.jpg',
+          image: '/portfolio/technology/image-launch-vehicle-landscape.jpg',
           content: 'A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth\'s surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it\'s quite an awe-inspiring sight on the launch pad!'
         },
         {
           title: 'Spaceport',
           srcset: '/technology/image-spaceport-landscape.jpg 768w, /technology/image-spaceport-portrait.jpg, 515w',
-          image: '/technology/image-spaceport-portrait.jpg',
+          image: '/portfolio/technology/image-spaceport-portrait.jpg',
           content: 'A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch.'
         },
         {
           title: 'Space capsule',
           srcset: '/technology/image-space-capsule-landscape.jpg 768w, /technology/image-space-capsule-portrait.jpg, 515w',
-          image: '/technology/image-space-capsule-portrait.jpg',
+          image: '/portfolio/technology/image-space-capsule-portrait.jpg',
           content: 'A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth\'s atmosphere without wings. Our capsule is where you\'ll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained.'
         }
       ]
@@ -76,7 +76,7 @@ export default {
     width: 100%;
   }
   .main-background {
-    background: linear-gradient(to bottom, rgba(11,13,23,0.25) 100%,rgba(11,13,23,0.25) 100%), url(/technology/background-technology-mobile.jpg) no-repeat center center;
+    background: linear-gradient(to bottom, rgba(11,13,23,0.25) 100%,rgba(11,13,23,0.25) 100%), url(/portfolio/technology/background-technology-mobile.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -136,7 +136,7 @@ export default {
       height: 80px;
     }
     .main-background {
-      background: linear-gradient(to bottom, rgba(11,13,23,0.25) 100%,rgba(11,13,23,0.25) 100%), url(/technology/background-technology-desktop.jpg) no-repeat center center;
+      background: linear-gradient(to bottom, rgba(11,13,23,0.25) 100%,rgba(11,13,23,0.25) 100%), url(/portfolio/technology/background-technology-desktop.jpg) no-repeat center center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;

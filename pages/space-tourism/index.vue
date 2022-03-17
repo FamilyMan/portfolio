@@ -35,7 +35,7 @@ export default {
     font-size: 20px;
   }
   .main-background {
-    background: linear-gradient(to bottom, rgba(11,13,23,0.25) 100%,rgba(11,13,23,0.25) 100%), url(/home/background-home-mobile.jpg) no-repeat center center;
+    background: linear-gradient(to bottom, rgba(11,13,23,0.25) 100%,rgba(11,13,23,0.25) 100%), url(/portfolio/home/background-home-mobile.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -76,7 +76,7 @@ export default {
   }
   @media (min-width: 960px) {
     .main-background {
-      background: linear-gradient(to bottom, rgba(11,13,23,0.25) 100%,rgba(11,13,23,0.25) 100%), url(/home/background-home-desktop.jpg) no-repeat center center;
+      background: linear-gradient(to bottom, rgba(11,13,23,0.25) 100%,rgba(11,13,23,0.25) 100%), url(/portfolio/home/background-home-desktop.jpg) no-repeat center center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;

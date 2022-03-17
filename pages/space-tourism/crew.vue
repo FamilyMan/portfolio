@@ -35,10 +35,10 @@ export default {
     return {
       tab: 0,
       items: [
-        { title: 'Commander', name: 'Douglas Hurley', image: '/crew/image-douglas-hurley.png', content: 'Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.' },
-        { title: 'Mission Specialist', name: 'Mark Shuttleworth', image: '/crew/image-mark-shuttleworth.png', content: 'Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist.' },
-        { title: 'Pilot', name: 'Victor Glover',image: '/crew/image-victor-glover.png',  content: 'Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer.' },
-        { title: 'Flight Engineer', name: 'Anousheh Ansari', image: '/crew/image-anousheh-ansari.png', content: 'Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space.' }
+        { title: 'Commander', name: 'Douglas Hurley', image: '/portfolio/crew/image-douglas-hurley.png', content: 'Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.' },
+        { title: 'Mission Specialist', name: 'Mark Shuttleworth', image: '/portfolio/crew/image-mark-shuttleworth.png', content: 'Mark Richard Shuttleworth is the founder and CEO of Canonical, the company behind the Linux-based Ubuntu operating system. Shuttleworth became the first South African to travel to space as a space tourist.' },
+        { title: 'Pilot', name: 'Victor Glover',image: '/portfolio/crew/image-victor-glover.png',  content: 'Pilot on the first operational flight of the SpaceX Crew Dragon to the International Space Station. Glover is a commander in the U.S. Navy where he pilots an F/A-18.He was a crew member of Expedition 64, and served as a station systems flight engineer.' },
+        { title: 'Flight Engineer', name: 'Anousheh Ansari', image: '/portfolio/crew/image-anousheh-ansari.png', content: 'Anousheh Ansari is an Iranian American engineer and co-founder of Prodea Systems. Ansari was the fourth self-funded space tourist, the first self-funded woman to fly to the ISS, and the first Iranian in space.' }
       ]
     }
   }
@@ -56,7 +56,7 @@ export default {
     max-width: fit-content;
   }
   .main-background {
-    background: linear-gradient(to bottom, rgba(11,13,23,0.25) 100%,rgba(11,13,23,0.25) 100%), url(/crew/background-crew-mobile.jpg) no-repeat center center;
+    background: linear-gradient(to bottom, rgba(11,13,23,0.25) 100%,rgba(11,13,23,0.25) 100%), url(/portfolio/crew/background-crew-mobile.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -109,7 +109,7 @@ export default {
       left: 0;
     }
     .main-background {
-      background: linear-gradient(to bottom, rgba(11,13,23,0.25) 100%,rgba(11,13,23,0.25) 100%), url(/crew/background-crew-desktop.jpg) no-repeat center center;
+      background: linear-gradient(to bottom, rgba(11,13,23,0.25) 100%,rgba(11,13,23,0.25) 100%), url(/portfolio/crew/background-crew-desktop.jpg) no-repeat center center;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
