@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/space-tourism/destination", {data:[{}],fetch:{},mutations:void 0});
