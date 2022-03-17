@@ -46,7 +46,10 @@ export default {
     display: 'swap',
     families: {
       Outfit: true,
-      Manrope: true
+      Manrope: true,
+      Bellefair: true,
+      Barlow: true,
+      "Barlow Condensed": true
     }
   },
 
@@ -61,6 +64,19 @@ export default {
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
+    icons: {
+      iconfont: "mdi"
+    },
+    breakpoint: {
+      thresholds: {
+        xs: 600,
+        sm: 768,
+        md: 960,
+        lg: 1264
+      },
+      mobileBreakpoint: "sm",
+      scrollBarWidth: 0
+    },
     customVariables: ['~/assets/variables.scss'],
     treeShake: true,
     defaultAssets: false,

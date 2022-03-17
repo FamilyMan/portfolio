@@ -1,0 +1,130 @@
+::v-deep {
+  --near-black: hsl(230, 35%, 7%);
+  --light-violet: hsl(231, 77%, 90%);
+  --white: hsl(0, 0%, 100%);
+}
+::v-deep h1 {
+  font-family: Bellefair, serif;
+  font-size: 80px;
+  font-weight: 400;
+  color: var(--white);
+  text-transform: uppercase;
+}
+::v-deep h2 {
+  font-family: Bellefair, serif;
+  font-size: 56px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--white);
+}
+::v-deep h3 {
+  font-family: Bellefair, serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--white);
+}
+::v-deep h4 {
+  font-family: Bellefair, serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: var(--white);
+}
+::v-deep h5 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 16px;
+  letter-spacing: 4.725px;
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: 400;
+}
+::v-deep p {
+  font-family: Barlow, sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--light-violet);
+}
+::v-deep .subheading1 {
+  font-family: Bellefair, serif;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+::v-deep .subheading2 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 14px;
+  letter-spacing: 2.35px;
+  text-transform: uppercase;
+}
+::v-deep .text-box-holder {
+  display: flex;
+  justify-content: center;
+}
+::v-deep .text-box {
+  max-width: 444px;
+  margin: 0 24px;
+}
+::v-deep .main-grid {
+  text-align: center;
+  display: grid;
+}
+@media (min-width: 768px) {
+  ::v-deep h1 {
+    font-size: 150px;
+  }
+  ::v-deep h2 {
+    font-size: 80px;
+  }
+  ::v-deep h3 {
+    font-size: 40px;
+  }
+  ::v-deep h4 {
+    font-size: 24px;
+  }
+  ::v-deep h5 {
+    margin-left: 39px;
+    text-align: left;
+    font-size: 20px;
+  }
+  ::v-deep p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  ::v-deep .text-box {
+    max-width: 592px;
+    margin: 0 24px;
+  }
+}
+@media (min-width: 960px) {
+  ::v-deep .text-box-holder {
+    justify-content: left;
+  }
+  ::v-deep .text-box {
+    width: 444px;
+    margin: 0;
+  }
+  .main-grid {
+    text-align: left;
+    margin-left: 166px;
+  }
+  ::v-deep h1 {
+    font-size: 150px;
+  }
+  ::v-deep h2 {
+    font-size: 100px;
+  }
+  ::v-deep h3 {
+    font-size: 56px;
+  }
+  ::v-deep h4 {
+    font-size: 32px;
+  }
+  ::v-deep h5 {
+    margin-left: 0;
+    font-size: 28px;
+  }
+  ::v-deep p {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
