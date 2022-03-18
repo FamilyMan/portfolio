@@ -5,7 +5,9 @@
         <h5><span style="opacity: 0.25;font-weight: bold">01</span> Pick your destination</h5>
       </div>
       <div style="grid-area: left;position: relative;display: flex;justify-content: center">
-        <img class="pic" :src="items[tab].image" :alt="`Picture of ${items[tab].title}`">
+        <transition name="zoom" mode="out-in">
+          <img class="pic" :src="items[tab].image" :key="tab" :alt="`Picture of ${items[tab].title}`">
+        </transition>
       </div>
       <div style="grid-area: menu" class="menu" v-if="items">
         <v-tabs
@@ -23,23 +25,25 @@
         </v-tabs>
       </div>
       <div style="grid-area: right">
-        <div class="text-box-holder">
-          <div style="margin-top: 24px">
-            <h2>{{ items[tab].title }}</h2>
-            <div class="text-box">
-              <p>{{ items[tab].content }}</p>
-              <hr style="margin: 54px 0 28px;border: 0;border-top: 1px solid #383B4B">
-              <div class="bottom-div">
-                <div class="distance-div">
-                  <p class="subheading2">Avg. distance</p><h4 class="subheading1">{{ items[tab].distance }}</h4>
-                </div>
-                <div>
-                  <p class="subheading2">Est. travel time</p><h4 class="subheading1">{{ items[tab].travelTime }}</h4>
+        <transition name="spin" mode="out-in">
+          <div :key="tab" class="text-box-holder">
+            <div style="margin-top: 24px">
+              <h2>{{ items[tab].title }}</h2>
+              <div class="text-box">
+                <p>{{ items[tab].content }}</p>
+                <hr style="margin: 54px 0 28px;border: 0;border-top: 1px solid #383B4B">
+                <div class="bottom-div">
+                  <div class="distance-div">
+                    <p class="subheading2">Avg. distance</p><h4 class="subheading1">{{ items[tab].distance }}</h4>
+                  </div>
+                  <div>
+                    <p class="subheading2">Est. travel time</p><h4 class="subheading1">{{ items[tab].travelTime }}</h4>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </transition>
       </div>
     </div>
   </div>

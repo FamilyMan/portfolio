@@ -14,16 +14,20 @@
             </v-btn-toggle>
           </div>
         </div>
-        <div class="content-box">
-          <h6>The terminology...</h6>
-          <h3>{{ items[tab].title }}</h3>
-          <div class="text-box-holder">
-            <p class="text-box">{{ items[tab].content }}</p>
+        <transition name="spin" mode="out-in">
+          <div :key="tab" class="content-box">
+            <h6>The terminology...</h6>
+            <h3>{{ items[tab].title }}</h3>
+            <div class="text-box-holder">
+              <p class="text-box">{{ items[tab].content }}</p>
+            </div>
           </div>
-        </div>
+        </transition>
       </div>
       <div style="grid-area: right;display: flex;justify-content: end;align-items: center">
-        <img :srcset="items[tab].srcset" sizes="(max-width: 960px) 768px, 515px" :src="items[tab].image" :alt="`Picture of ${items[tab].title}`">
+        <transition name="spinY" mode="out-in">
+          <img :key="tab" :srcset="items[tab].srcset" sizes="(max-width: 960px) 768px, 515px" :src="items[tab].image" :alt="`Picture of ${items[tab].title}`">
+        </transition>
       </div>
     </div>
   </div>

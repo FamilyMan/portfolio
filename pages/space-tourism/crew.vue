@@ -5,13 +5,15 @@
         <h5><span style="color: #ffffff;opacity: 0.25">02</span> Meet your crew</h5>
       </div>
       <div style="grid-area: left">
-        <div>
-          <h4 style="opacity: 0.5">{{ items[tab].title }}</h4>
-          <h3>{{ items[tab].name }}</h3>
-          <div class="text-box-holder">
-            <p class="text-box">{{ items[tab].content }}</p>
+        <transition name="spin" mode="out-in">
+          <div :key="tab">
+            <h4 style="opacity: 0.5">{{ items[tab].title }}</h4>
+            <h3>{{ items[tab].name }}</h3>
+            <div class="text-box-holder">
+              <p class="text-box">{{ items[tab].content }}</p>
+            </div>
           </div>
-        </div>
+        </transition>
       </div>
       <div style="grid-area: dots" v-if="items">
         <v-btn-toggle mandatory v-model="tab" style="background-color: transparent">
@@ -21,7 +23,9 @@
         </v-btn-toggle>
       </div>
       <div style="grid-area: right;position: relative;display: flex;justify-content: center">
-        <img class="pic" :src="items[tab].image" :alt="`Picture of ${items[tab].name }`">
+        <transition name="spinY" mode="out-in">
+          <img :key="tab" class="pic" :src="items[tab].image" :alt="`Picture of ${items[tab].name }`">
+        </transition>
       </div>
     </div>
   </div>

@@ -68,6 +68,36 @@
   text-align: center;
   display: grid;
 }
+
+.spin-enter-active, .spin-leave-active {
+  transition: all .3s ease-in-out;
+}
+.spin-enter, .spin-leave-to {
+  opacity: 0;
+  transform: rotateX(90deg);
+}
+
+.spinY-enter-active, .spinY-leave-active {
+  transition: all .3s ease-in-out;
+}
+.spinY-enter, .spinY-leave-to {
+  opacity: 0;
+  transform: rotateY(90deg);
+}
+
+.rotate-enter-active {
+  transition: transform .3s;
+}
+.rotate-enter {
+  transform: rotate(360deg);
+}
+
+.zoom-enter-active, .zoom-leave-active {
+  transition: transform .3s ease-in-out;
+}
+.zoom-enter, .zoom-leave-to {
+  transform: scale(0.1);
+}
 @media (min-width: 768px) {
   ::v-deep h1 {
     font-size: 150px;
